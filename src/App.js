@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Thumbnail from "./Components/Thumbnail";
 import SectionHeading from "./Components/SectionHeading";
 import ImportantText from "./Components/ImportantText";
+import Clikable_thumbnail from "./Components/Clickable_thumbnail"
 import t11 from "./images/1.jpg";
 import t12 from "./images/2.jpg";
 import t13 from "./images/3.jpg";
@@ -46,7 +47,7 @@ export default function App() {
         </section>
 
 
-        
+        <Clikable_thumbnail></Clikable_thumbnail>
 
 
 

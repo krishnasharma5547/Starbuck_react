@@ -21,6 +21,9 @@ module.exports = {
         "primary-200": "#F1F8F5",
         "primary-100": "#F7F7F7",
         back: "#D5EAE3",
+        "secoundary-100": "#F1F8F5",
+        "secoundary-200": "#D4E9E2",
+        star: "#CBA258",
       },
       width: {
         large: "774px",

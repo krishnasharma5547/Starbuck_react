@@ -38,18 +38,21 @@ export default function Navbar() {
           <Location>Find a Store</Location>
           <div className="flex space-x-4 mt-1">
             <Button
-              liink="#"
-              classes="hidden md:flex border-black bg-white font-medium text-base flex-shrink-0"
+                liink="#"
+                classes="hidden md:flex border-black bg-white font-medium text-base flex-shrink-0 whitespace-nowrap"
             >
               Sign Up
             </Button>
 
             <Button
-              link="#"
-              classes="hidden md:flex bg-black text-white font-medium text-base flex-shrink-0"
+                link="#"
+                classes="hidden md:flex bg-black text-white font-medium text-base flex-shrink-0 whitespace-nowrap"
             >
               Join now
             </Button>
+            <div class="md:hidden text-3xl">
+              <i class="fas fa-bars"></i>
+            </div>
           </div>
         </div>
       </div>

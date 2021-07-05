@@ -1,1 +1,1 @@
-Starbucks REward page clone Using react 
+Starbucks Reward page clone Using react 
